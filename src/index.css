@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+  width: 160px;
+  height: 40px;
+  border: none;
+  margin-top: 20px;
+  box-shadow: 1px 1px 4px 1px rgb(77, 144, 165);
+  cursor: pointer;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+p{
+ margin-top: 50px;
+}
+.saveBtn{
+  box-shadow: 1px 1px 4px 1px rgb(77, 165, 92);
+  margin-right: 15px;
+}
+.deleteBtn{
+  box-shadow: 1px 1px 4px 1px rgb(165, 77, 77);
+}
+.deleteCurrent{
+  width: 40px;
+  height: 20px;
+  margin-left: 30px;
+}
+.deleteCurrent:hover{
+  box-shadow: 1px 1px 4px 1px rgb(255, 102, 0);
+}
+aside{
+  margin-left: 30px;
+  padding: 20px;
+}
+.deleteAll{
+  margin-left: 15px;
+  box-shadow: 1px 1px 4px 1px rgb(255, 0, 0);
+}
+.ourPokemons{
+  border: solid 1px;
+  width: 300px;
+}
+span{
+  box-shadow: 1px 1px 10px 3px rgb(124, 124, 124);
+  padding: 5px;
+}
